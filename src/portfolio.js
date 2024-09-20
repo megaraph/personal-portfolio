@@ -188,37 +188,38 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle:
-    "ACTIVITIES AND PROJECTS THAT I AIDED AND COMMITTED TO IN MAKING AN IMPACT",
+  title: "Personal Projects",
+  subtitle: "PROJECTS THAT I WORKED ON DURING MY FREE TIME",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/hourglass.png"),
+      projectName: "Hourglass",
+      projectDesc:
+        "Hourglass is a chrome extension made with JavaScript that automates tab switching based on your schedule",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit Source",
+          url: "https://github.com/megaraph/tab-scheduler"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/johnianNetwork.png"),
+      projectName: "Johnian Network",
+      projectDesc:
+        "The Johnian Network was a discussion site where anyone can post comments and share images in different themed boards",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit Source",
+          url: "https://github.com/megaraph/johnian-network"
         }
       ]
     }
@@ -231,55 +232,62 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  subtitle: "Achievements, Certifications, Award Letters",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "IEEE Published Author",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Published a paper in the 2023 IEEE 15th International Conference on Humanoid, Nanotechnology, Information Technology, Communication and Control, Environment, and Management (HNICEM)",
+      image: require("./assets/images/ieeeLogo.jpg"),
+      imageAlt: "IEEE Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Paper",
+          url: "https://ieeexplore.ieee.org/document/10589040"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "2022 World Youth Coders Hackathon (Participant)",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Developed an application that lets people earn points, rank up, and complete challenges to gamify electricity saving.",
+      image: require("./assets/images/wcc.jpeg"),
+      imageAlt: "World Coding Club Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/1PV4OGRl2MMmgnAxRKPYyXZedLnfnJBVN/view?usp=sharing"
+        },
+        {
+          name: "View Source",
+          url: "https://github.com/megaraph/summerventure"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "RAISE Hackathon (Participant)",
+      subtitle:
+        "Investigated the relationship between dengue outreaks and several variables such as weather patterns, population density, and historical data.",
+      image: require("./assets/images/bcmuLogo.jpg"),
+      imageAlt: "Birhmingham City University",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/1_A27lQA8YQbEp3CLJicF6pNWaeEaCzHs/view"
+        }
+      ]
+    },
+    {
+      title: "CS50x (Completer)",
+      subtitle:
+        "Completed CS50x, including ten problem sets, ten labs, and one final project.",
+      image: require("./assets/images/harvardLogo.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "View Certificate",
+          url: "https://certificates.cs50.io/1488bde8-f380-4a61-8906-fab47b1e63d4.pdf?size=letter"
         }
       ]
     }
@@ -355,9 +363,9 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss a project or need to contact me? My Inbox is open for all.",
+  number: "raph_murillo@dlsu.edu.ph",
+  email_address: "raphmurillo633@gmail.com"
 };
 
 // Twitter Section
