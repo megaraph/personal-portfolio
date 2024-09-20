@@ -1,6 +1,6 @@
 {
   "homepage": "https://megaraph.github.io/personal-portfolio",
-  "name": "developerfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
