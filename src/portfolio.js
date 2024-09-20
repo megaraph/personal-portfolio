@@ -36,7 +36,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/megaraph",
   linkedin: "https://www.linkedin.com/in/raphael-m-860261246/",
-  gmail: "raphmurillo633@gmail.com",
+  gmail: "raphaelmurillo633@gmail.com",
   // gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/raphael.murillo.9",
   // medium: "https://medium.com/@saadpasta",
@@ -366,7 +366,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or need to contact me? My Inbox is open for all.",
   number: "raph_murillo@dlsu.edu.ph",
-  email_address: "raphmurillo633@gmail.com"
+  email_address: "raphaelmurillo633@gmail.com"
 };
 
 // Twitter Section
